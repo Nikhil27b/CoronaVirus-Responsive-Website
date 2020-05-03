@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar .navbar-brand {
+  padding: 10px 20px;
+  color: black;
+}
+
+.navbar .nav-link {
+  color: #414141;
+}
+
+.navbar .nav-link:hover {
+  color: #31936b;
+}
+
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+
+.main-bg-img img {
+  width: 450px;
+  height: 400px;
+}
+
+.main-home-text {
+  margin-top: 120px;
+}
+
+.main-home-text h1 {
+  color: #013354;
+  font-size: 60px;
+  padding: 2px 5px;
+  font-weight: 600;
+}
+
+.main-home-text h1 span {
+  color: #31936b;
+}
+
+.main-home-text h1:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.main-btn a {
+  padding: 8px 10px;
+  background-color: #31936b;
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.main-btn a:nth-child(2) {
+  border: 1px solid #414141;
+  background-color: white;
+  color: #414141;
+  margin-left: 10px;
+}
+
+.about-us {
+  margin-top: 200px;
+}
+
+.aboout-bg-img img,
+.sysm-bg img {
+  width: 400px;
+  height: 400px;
+}
+
+.map-img img {
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.about-texts span,
+.sysm-main-text span {
+  color: #31936b;
+  font-weight: 700;
+  position: relative;
+}
+
+.about-texts span::before {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #31936b;
+  position: absolute;
+  left: -100px;
+  top: 10px;
+}
+
+.about-texts h1,
+.sysm-main-text h4 {
+  margin-top: 10px;
+  color: #013354;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-texts p {
+  margin-bottom: 30px;
+}
+
+.about-texts a {
+  padding: 10px 20px;
+  background-color: #31936b;
+  border-radius: 50px;
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.world a {
+  padding: 5px 25px;
+  background-color: #31936b;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: 0.4s ease-in-out;
+  color: white;
+  text-decoration: none;
+}
+
+.world a:hover {
+  color: #31936b;
+  background-color: black;
+}
+
+#sparde,
+#sysm,
+#maps,
+#preb {
+  margin-top: 100px;
+}
+
+.title p {
+  color: #31936b;
+  position: relative;
+}
+
+.title p::before {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #31936b;
+  position: absolute;
+  left: 500px;
+  top: 11px;
+}
+
+.sysm-main-text span::after {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #31936b;
+  position: absolute;
+  top: 11px;
+  left: 80px;
+}
+
+.title p::after {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #31936b;
+  position: absolute;
+  right: 500px;
+  top: 11px;
+}
+
+.title h4 {
+  color: #013354;
+  font-weight: 700;
+}
+
+.main-sprade {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 60px 20px;
+}
+
+.main-pre {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f5f5;
+  height: 250px;
+  margin-top: 40px;
+  margin: 30px 50px;
+}
+
+.cards li {
+  list-style: decimal-leading-zero;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 700;
+  color: #013354;
+}
+
+.cards p {
+  color: #414141;
+  padding: 5px 0;
+}
+
+.cards-2:nth-child(2) {
+  padding: 4px 40px;
+  list-style: decimal-leading-zero;
+  border-radius: 10px;
+  background-color: #31936b;
+  color: white;
+  margin-bottom: -10px;
+}
+
+.cards-2 li {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.spread-card img,
+.pre-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.spread-card p,
+.pre-card p {
+  padding: 20px 0;
+  color: #013354;
+  font-weight: 700;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-card h1 {
+  color: #414141;
+  font-size: 18px;
+}
+
+.flex-card h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.flex-card .rev h2 {
+  color: #31936b;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.flex-card .dea h2 {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.maos h4 {
+  margin-bottom: 60px;
+}
+
+.india h1,
+.world h1 {
+  font-size: 25px;
+  color: #013354;
+  font-weight: 700;
+}
+
+.world {
+  margin-top: 50px;
+}
+
+#last h1 {
+  color: #31936b;
+  font-weight: 700;
+}
+
+#last {
+  border-top: 1px solid #414141;
+  margin-top: 20px;
+}
+
+#last .row {
+  margin-top: 40px;
+}
+
+#last a {
+  color: #414141;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 20px;
+}
