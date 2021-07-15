@@ -8,16 +8,16 @@ fetch('https://api.covid19api.com/summary')
 
             console.log(actualdata);
             //confirm
-            const mydata = actualdata.Countries[100].TotalConfirmed;
+            const mydata = actualdata.Countries[76].TotalConfirmed;
             document.getElementById('conin').innerHTML = mydata;
 
 
             //recover
-            const recdata = actualdata.Countries[100].TotalRecovered;
+            const recdata = actualdata.Countries[76].TotalRecovered;
             document.getElementById('revin').innerHTML = recdata;
 
             //deaths
-            const detdata = actualdata.Countries[100].TotalDeaths;
+            const detdata = actualdata.Countries[76].TotalDeaths;
             document.getElementById('detin').innerHTML = detdata;
 
             //global data 
